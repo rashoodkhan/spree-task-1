@@ -1,0 +1,58 @@
+body 	{
+	background-color:rgb(37, 37, 37);
+}
+
+
+table 	{
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 80%;
+	background-color:white;
+}
+
+h2	{
+	font-family: Verdana;
+}
+
+.button	a{
+	background-color:rgb(54, 134, 187);
+	color: #FFFFFF;
+	text-align: center;
+	padding:auto;
+	display: block;
+	font-size: 20px;
+	width: 200px;
+	height: 50px;
+	outline: none;
+	border-radius: 3px;
+	border: 1px rgb(193, 193, 193) solid;
+	margin:15px;
+	padding-top: 10px;
+	opacity:1.0;
+	display:inline-block;
+
+}
+
+#profile	{
+	margin-top: -500px;
+}
+
+.button a:hover	{
+	background-color:rgb(43, 106, 147);
+	color: white;
+	text-decoration: none;
+}	
+
+#blank	{
+	height: 500px;	
+}
+
+p	{
+	font-size: 20px;
+}
+
+#p_left	{
+	padding:5px;
+	padding-left: 185px;
+}
