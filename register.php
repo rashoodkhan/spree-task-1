@@ -1,16 +1,6 @@
 <?php
 
-	$mysql_host = 'localhost';
-	$mysql_user = 'root';
-	$mysql_pass = '';
-	$mysql_error = '<strong>SERVER DOWN!!!</strong>';
-	$mysql_db = 'springspree';
-	$mysql_table = '';
-
-	if(!@mysql_connect($mysql_host, $mysql_user, $mysql_pass)||!@mysql_select_db($mysql_db))
-	{
-		die($mysql_error);
-	}
+	require 'connect.php';
 
 	if(isset($_POST['name'])&&isset($_POST['email'])&&isset($_POST['phone'])&&isset($_POST['password'])&&isset($_POST['reppassword'])&&isset($_POST['college'])&&!empty($_POST['name'])&&!empty($_POST['email'])&&!empty($_POST['phone'])&&!empty($_POST['password'])&&!empty($_POST['reppassword'])&&!empty($_POST['college']))
 	{
